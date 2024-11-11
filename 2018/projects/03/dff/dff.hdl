@@ -1,0 +1,12 @@
+/**
+* replication of built-in data flip flop, for purpose of writing tests
+*/
+
+CHIP dff {
+    IN in;
+    OUT out;
+
+    PARTS:
+    BUILTIN DFF;
+    CLOCKED in;
+}
